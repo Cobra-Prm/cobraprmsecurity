@@ -1,0 +1,1 @@
+const l=document.getElementById('list');if(l){JSON.parse(localStorage.getItem('wishlist')||'[]').forEach(i=>l.innerHTML+=`<li>${i}</li>`)}
